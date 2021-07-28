@@ -13,10 +13,31 @@ body{
     margin: auto;
     text-align: center;
     margin-top: 200px;
-    box-shadow: inset 0px 0px 0px 3px  white;
+    border: 5px dotted greenyellow;
+    animation: glow 1s infinite ;
+    transition:0.5s;
+}
 
+@keyframes glow {
+    0%{
+        box-shadow: 5px 5px 20px rgb(124, 10, 124),-5px -5px 20px rgb(124, 10, 124);
+    }
+        
+    25%{
+        box-shadow: 5px 5px 20px rgb(14, 33, 138),-5px -5px 20px rgb(14, 33, 138);
+        }
+    50%{
+        box-shadow: 5px 5px 20px rgb(121, 214, 15),-5px -5px 20px rgb(121, 214, 15);
+        } 
+    75%{
+         box-shadow: 5px 5px 20px rgb(14, 33, 138),-5px -5px 20px rgb(14, 33, 138);
+        }            
+    100%{
+        box-shadow: 5px 5px 20px rgb(124, 10, 124),-5px -5px 20px rgb(124, 10, 124);
+        }
+    
 }
 
 p {
-    font-size: 10px;
+    font-size: 12px;
 }
