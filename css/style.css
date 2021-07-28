@@ -1,0 +1,16 @@
+.psw-container {
+    height: 180px;
+    width: 800px;
+    background-color: rgb(124, 10, 124);
+    border: 10px solid rgb(124, 10, 124);
+    color: greenyellow;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    box-shadow: inset 0px 0px 0px 3px  white;
+
+}
+
+p {
+    font-size: 10px;
+}
